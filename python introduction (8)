@@ -1,0 +1,200 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "8fea7315-7725-41c8-ba56-4a6f4c00efbe",
+   "metadata": {},
+   "source": [
+    " #   1) what is python ?\n",
+    " - Python is a high-level, interpreted programming language known for its readability and simplicity. Created by Guido van Rossum and first released in 1991. \n",
+    "    \n",
+    "- Python is a high level programming language which helps the programmers to express concepts in fewer lines of code compared to languages like C++ or java. It is also very flexible language where we can easily read and write.\n",
+    "    \n",
+    "- Python is a programming language that is interpreted, object-oriented, and considered to be high-level too. Its emphasis on readability and community support makes it a great option for projects of all sizes.\n",
+    "   "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "45879caf-7470-4f0f-add5-b4ae8f32074e",
+   "metadata": {},
+   "source": [
+    "# 2) History of python?\n",
+    "- Python is a high-level, interpreted programming language known for its readability and simplicity. Created by Guido van Rossum and first released in 1991,Python was named after the BBC TV show Monty Python's Flying Circus.\n",
+    "- In 1994, Python 1.0 was released with new features like lambda, map, filter, and reduce.\n",
+    "- Python 2.0 added new features such as list comprehensions, garbage collection systems\n",
+    "- On December 3, 2008, Python 3.0 (also called \\\"Py3K\\\") was released\n",
+    " - some of the version of python:-\n",
+    "    Python 3.11.10 Sept. 7, 2024 , \n",
+    "    Python 3.10.15 Sept. 7, 2024  ,\n",
+    "    Python 3.12.6 Sept. 6, 2024  ,\n",
+    "    Python 3.9.20 Sept. 6, 2024  ,\n",
+    "    Python 3.8.20 Sept. 6, 2024  ,\n",
+    "    Python 3.11.8 Feb. 6, 2024  ,\n",
+    "    Python 3.12.2 Feb. 6, 2024   ,\n",
+    "    Python 3.12.0 Oct. 2, 2023  ,\n",
+    "    Python 3.11.6 Oct. 2, 2023  ,\n",
+    "    Python 3.10.13 Aug. 24, 2024.3.9.18. "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "eeb39f67-1377-4e9e-82ab-75aaef529bc5",
+   "metadata": {},
+   "source": [
+    "# 3) why we need to use python?\n",
+    "some of the reasons why we need to use python are:\n",
+    "- Easy to Learn and Use: Python has a simple language that is easy to read and write, making it accessible for beginners.\n",
+    " - Rich Ecosystem of Libraries: Libraries like NumPy, pandas, TensorFlow, and Flask extend Python's functionality, making it suitable for various applications.\n",
+    "- Great for Prototyping: Due to its simplicity and speed of development, Python is excellent for quickly prototyping ideas.\n",
+    "- Automation or scripting : If you find yourself performing a task repeatedly, you could work more efficiently by automating it with Python. Writing code used to build these automated processes is called scripting."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "29ded588-bec9-4673-9132-abcecec5eee1",
+   "metadata": {},
+   "source": [
+    "# 4) Application python?\n",
+    "\n",
+    "- Data Analysis and Visualization: Python is a favorite in the data science community, thanks to libraries like pandas and Matplotlib. It allows users to analyze large datasets, perform statistical analysis, and create insightful visualizations.\n",
+    "  \n",
+    "-  Game Development : Python comes with packages like Pygame and Pykyra to build awesome games. It facilitates the development of 3D games with respective libraries.Famous games like Battlefield 2, World of Tanks, Toontown Online, and Civilization 4 are also built using Python.\n",
+    "    \n",
+    "- Web Development : Python is widely used in web development. It makes use of simple code to build a beautiful and functional website. It has related libraries and modules like HTTP, XML, JSON, IMAP, POP, FTP, etc. These help in storage in databases, content management, and interfacing."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "42a8aa46-135d-4286-a664-fce42bc138cc",
+   "metadata": {},
+   "source": [
+    "# 5) Explain about keywords and implement?\n",
+    "- Keywords in Python are reserved words that can not be used as a variable name, function name, or any other identifier.They help in perfoming functions and play a intergral part in code. They are 35 keywords presnt in python.\n",
+    "    They are 4 sub keywords:-\n",
+    "    Value Keywords.\n",
+    "    Operator Keyword.\n",
+    "    Control Flow Keywords\n",
+    "    Iteration Keyword\n",
+    "- Implemneting the keyword\n",
+    "   "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "7f3219e1-60fc-4920-b677-5a75677264ff",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "35"
+      ]
+     },
+     "execution_count": 14,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\n",
+    "import keyword\n",
+    "#get the list of python keywords\n",
+    "python_keywords = keyword.kwlist\n",
+    "    \n",
+    "#displayed the list of key words\n",
+    "print(python_keywords)\n",
+    "len(python_keywords)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "519cc3c8-6263-4248-bfbe-10372fe335a4",
+   "metadata": {},
+   "source": [
+    "# 6) explain about comments and example?\n",
+    "- Comments in Python are the lines in the code that are ignored by the interpreter during the execution of the program.comments make the understand easier and also helps in explaining the code easier. \n",
+    "- If she add # infront of a line its a comment and these cannot be run and nor we will get an error.\n",
+    "  example of comments :\n",
+    " - print(\\\"Hello, World!\\\") # This prints the greeting\n",
+    " - teks = 10  # Assigning 10 to teks\n",
+    " - area = length * width  # calculation of the area\"\n",
+    " "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0e0b5241-a885-4faa-acf1-8194100497e1",
+   "metadata": {},
+   "source": [
+    "# 7) Explain indetail about variables with exapmles and rules?\n",
+    "-  A variable is a container  or a storage area to hold data. To indicate the storage area, each variable should be given a unique name (identifier).\n",
+    "-  Variable names are just the symbolic representation of a memory location.\n",
+    "-  It acts as a placeholder for data that can be changed during the execution of a program.\n",
+    "-  Variables are essential in Python programming for storing data, allowing for dynamic and flexible code.\n",
+    "-  Understanding how to declare, assign, and manage variables is a foundational skill for any programmer. With dynamic typing, Python simplifies variable management, making it easier to write and maintain code.\n",
+    " -  These values can change during the execution of a program, hence the term “variable.” Variables are essential for storing and manipulating data in computer programs.\n",
+    "   \n",
+    "   Rules of variables:-\n",
+    "- A variable name must begin with a letter (a-z, A-Z) or an underscore (_).\n",
+    "-  you can use letters, numbers (0-9), and underscores after the first variable, for example:- var1, data_2023, user_name.\n",
+    "-  Variable names cannot contain space and  cannot include special characters such as @, #, $, %, &, etc.\n",
+    "-  Variables  cannot start with keyword and are also case sensitive for example : team, TEAM OR Team are cosidered to be different.\n",
+    "\n",
+    "  \n",
+    "\n",
+    " examples of variables :\n",
+    "- These are valid variables:-\n",
+    "     _class_2= 90,\n",
+    "     teks3789= 9839,\n",
+    "     team07_a= 90,\n",
+    "     python_3909_des= 339\n",
+    "     a= 23939404\n",
+    " - These are some of the invalid variables:-\n",
+    "     @kill = 889\n",
+    "     3teks= 890\n",
+    "      NAME$ = 90\n",
+    "      NUM BER = 28292\n",
+    "      6D88= 8\n",
+    "   "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "99a8f9c3-32cb-438d-bf3e-dd206e72d7d4",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
